@@ -18,16 +18,15 @@ public class FrequencyOfCharacters {
 
         Map<Character, Integer> map = new LinkedHashMap<>();
 
-        for (int i = 0; i < str.length(); i++){
-                char key = str.charAt(i);
-            if (map.containsKey(key)){
-                map.put(key, map.get(key)+1);
+        for (int i = 0; i < str.length(); i++) {
+            char key = str.charAt(i);
+            if (map.containsKey(key)) {
+                map.put(key, map.get(key) + 1);
             } else {
                 map.put(key, 1);
             }
 
         }
-
 
         System.out.println(map);
     }
