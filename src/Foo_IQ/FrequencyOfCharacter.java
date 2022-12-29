@@ -31,5 +31,6 @@ public class FrequencyOfCharacter {
         System.out.println(s);
 
 
+
     }
 }

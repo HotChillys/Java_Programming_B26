@@ -3,7 +3,7 @@ package Foo_IQ;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class MoveZero {
+public class  MoveZero {
 /*
 int[] arr = {1, 0,0,2,0, 3, 49, 6, 5};
         ArrayList<Integer> list = new ArrayList<>();
